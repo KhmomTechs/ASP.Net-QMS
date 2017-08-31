@@ -1,0 +1,935 @@
+/** OTHERS */
+.advertimage {
+    max-height: 90px;
+    max-width: 120px;
+}
+
+.postpicimg {
+    height: 45px;
+    width: 60px;
+}
+
+.profimage {
+    max-height: 75px;
+    max-width: 100px;
+}
+
+.profimaging {
+    max-height: 75px;
+    max-width: 100px;
+  
+    min-height: 60px;
+    min-width: 80px;
+}
+
+.viewimage {
+    margin-bottom: 3px;
+    max-height: 210px;
+    max-width: 280px;
+}
+
+.validation {
+    color: #CC0000;
+    font-size: x-small;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.click {
+    background: #000000;
+    background-color: #000000;
+    border: 1px solid #d3d3d3;
+    color: #ffffff;
+    font-size: small;
+}
+
+.example {
+    color: Gray;
+    font-family: Book Antiqua;
+    font-size: small;
+}
+
+.Enter {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 4px;
+    font-size: small;
+    max-width: 430px;
+    padding: 4px;
+    width: 150px;
+}
+
+
+.Enter:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    font-size: small;
+    max-width: 430px;
+    padding: 4px;
+    width: 150px;
+}
+
+.DropEnter {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 4px;
+    font-size: small;
+    max-height: 200px;
+    max-width: 430px;
+    padding: 4px;
+    width: 150px;
+}
+
+.DropEnter:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    font-size: small;
+    max-height: 200px;
+    max-width: 430px;
+    padding: 4px;
+    width: 150px;
+}
+
+.Enterfile {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 4px;
+    float: right;
+    font-size: x-small;
+    padding: 4px;
+    width: 200px;
+}
+
+.Enterfile:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    float: right;
+    font-size: x-small;
+    padding: 4px;
+    width: 200px;
+}
+
+.Entfile {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 4px;
+    font-size: x-small;
+    padding: 4px;
+    width: 200px;
+}
+
+.Entfile:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    font-size: x-small;
+    padding: 4px;
+    width: 200px;
+}
+
+.Enterper {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 4px;
+    font-size: small;
+    max-width: 430px;
+    padding: 4px;
+    width: 99%;
+}
+
+.Enterper:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    font-size: small;
+    max-width: 430px;
+    padding: 4px;
+    width: 99%;
+}
+
+.Enterperdesc {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 4px;
+    font-size: small;
+    height: 200px;
+    max-width: 430px;
+    padding: 4px;
+    width: 99%;
+}
+
+.Enterperdesc:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    font-size: small;
+    height: 200px;
+    max-width: 430px;
+    padding: 4px;
+    width: 99%;
+}
+
+.Enterperabout {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 4px;
+    font-size: small;
+    height: 100px;
+    max-width: 430px;
+    padding: 4px;
+    width: 99%;
+}
+
+.Enterperabout:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    font-size: small;
+    height: 100px;
+    max-width: 430px;
+    padding: 4px;
+    width: 99%;
+}
+
+.Enterside {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 4px;
+    font-size: small;
+    padding: 4px;
+    width: 60px;
+}
+
+.Enterside:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    font-size: small;
+    padding: 4px;
+    width: 60px;
+}
+
+.Dropdown {
+    -khtml-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -opera-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 8px;
+    font-size: small;
+    padding: 4px;
+    width: 100px;
+}
+
+.Dropdown:hover {
+    -khtml-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -opera-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border: 1.5px solid #000000;
+    border-radius: 8px;
+    font-size: small;
+    padding: 4px;
+    width: 100px;
+}
+
+.Enterplus {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 4px;
+    font-size: small;
+    height: 50px;
+    padding: 4px;
+    width: 150px;
+}
+
+.Enterplus:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    font-size: small;
+    height: 50px;
+    padding: 4px;
+    width: 150px;
+}
+
+.masterimage {
+    max-height: 90px;
+    max-width: 120px;
+}
+
+.listimage {
+    border: 1px solid #ffffff;
+    margin: 1px;
+    max-height: 66px;
+    max-width: 88px;
+}
+
+.smallimgmob {
+    max-height: 36px;
+    max-width: 50px;
+    vertical-align: top;
+}
+
+.Guide {
+    color: #000000;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+.limit {
+    color: #000000;
+    font-size: x-small;
+    pitch-range: 100;
+    text-decoration: none;
+}
+
+.Guidename {
+    color: #000000;
+    font-size: x-small;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.Guideplus {
+    color: #000000;
+    font-size: x-small;
+    vertical-align: top;
+}
+
+.Labetext {
+    font-size: small;
+    margin-left: 2px;
+    vertical-align: text-top;
+}
+
+.style2 {
+    background-color: #FFFFFF;
+    border: 0px solid #FFFFFF;
+    vertical-align: top;
+    width: 100px;
+}
+
+.pageimage {
+    max-height: 90px;
+    max-width: 120px;
+    min-height: 75px;
+    min-width: 100px;
+}
+
+.removeimg {
+    max-height: 60px;
+    max-width: 80px;
+    min-height: 45px;
+    min-width: 60px;
+}
+
+.buttons {
+    background-color: #ffffff;
+    border: #ffffff;
+    border-bottom: #ffffff;
+    border-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    border-style: none;
+    border-top-color: #ffffff;
+    color: #000000;
+    font-size: x-small;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.Hyperlink { text-decoration: none; }
+
+.Link {
+    color: Navy;
+    font-size: small;
+    text-decoration: none;
+}
+
+.blackLink {
+    color: #000000;
+    font-size: small;
+    text-decoration: none;
+}
+
+.tdLabel {
+    font-weight: bold;
+    text-align: right;
+}
+
+.displaydate {
+    color: Gray;
+    font-size: x-small;
+}
+
+.Details {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-bottom-color: #ffffff;
+    border-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    border-style: solid;
+    border-top-color: #ffffff;
+}
+
+.Formview {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    width: 100%;
+}
+
+.butt1 {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #000000;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: small;
+    padding: 0.5em;
+}
+
+.butt1:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: #d3d3d3;
+    font-size: small;
+    padding: 0.5em;
+}
+
+.btns {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #000000;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: small;
+    padding: 0.9em;
+}
+
+.btns:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: #d3d3d3;
+    font-size: small;
+    padding: 0.9em;
+}
+
+.butt11 {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #000000;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    color: #ffffff;
+    float: left;
+    font-size: small;
+    padding: 0.5em;
+}
+
+.butt11:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: #d3d3d3;
+    float: left;
+    font-size: small;
+    padding: 0.5em;
+}
+
+.bdarea {
+    background: url(../images/img04.png) repeat-y top;
+    height: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-width: 760px;
+    width: 100%;
+}
+
+.cpHeader {
+    background-color: #ffffff;
+    color: white;
+    cursor: pointer;
+    font: bold 11px auto "Trebuchet MS", Verdana;
+    font-size: 12px;
+    height: 18px;
+    padding: 4px;
+    width: 100px;
+}
+
+.cpBody {
+    background-color: #ffffff;
+    border: 1px white;
+    font: normal 11px auto Verdana, Arial;
+                   
+    padding: 4px;
+    padding-top: 7px;
+    width: 200px;
+}
+
+.cpHeader1 {
+    background-color: #ffffff;
+    color: white;
+    cursor: pointer;
+    font: bold 11px auto "Trebuchet MS", Verdana;
+    font-size: 12px;
+    height: 18px;
+    padding: 4px;
+    width: 100px;
+}
+
+.cpBody1 {
+    background-color: #ffffff;
+    border: 1px white;
+    font: normal 11px auto Verdana, Arial;
+                   
+    padding: 4px;
+    padding-top: 7px;
+    width: 200px;
+}
+
+.cpHeader2 {
+    background-color: #ffffff;
+    color: white;
+    cursor: pointer;
+    font: bold 11px auto "Trebuchet MS", Verdana;
+    font-size: 12px;
+    height: 18px;
+    padding: 4px;
+    width: 100px;
+}
+
+.cpBody2 {
+    background-color: #ffffff;
+    border: 1px white;
+    font: normal 11px auto Verdana, Arial;
+                   
+    padding: 4px;
+    padding-top: 7px;
+    width: 200px;
+}
+
+.Enterjq {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-color: #d3d3d3;
+    border-radius: 4px;
+    float: right;
+    font-size: small;
+    width: 200px;
+}
+
+.Enterjq:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-color: #000000;
+    border-radius: 4px;
+    float: right;
+    font-size: small;
+    width: 200px;
+}
+
+.Enterperjq {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-color: #d3d3d3;
+    border-radius: 4px;
+    font-size: small;
+    height: 150px;
+    max-height: 150px;
+    max-width: 380px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    width: 380px;
+}
+
+.Enterperjq:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-color: #000000;
+    border-radius: 4px;
+    font-size: small;
+    height: 150px;
+    max-height: 150px;
+    max-width: 380px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    width: 380px;
+}
+
+.Labelsjq {
+    float: left;
+    font-size: small;
+    text-align: left;
+}
+
+.jqLabelhd {
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Maintable {
+    border-top: 0px;
+    height: 100%;
+    margin-bottom: 40px;
+    margin-top: 35px;
+    max-width: 770px;
+    min-width: 770px;
+    width: 770px;
+}
+
+.Mainuser1 {
+    height: 100%;
+    max-width: 150px;
+    min-width: 150px;
+    padding-right: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 150px;
+}
+
+.tablebody {
+    height: 100%;
+    max-width: 440px;
+    min-width: 440px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 440px;
+}
+
+.Mainad1 {
+    height: 100%;
+    max-width: 120px;
+    min-width: 120px;
+    padding-left: 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 120px;
+}
+
+.Logconts {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #ffffff;
+    height: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-height: 0px;
+    max-width: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    visibility: hidden;
+    width: 0px;
+}
+
+.Error {
+    border-bottom-color: Red;
+    font-size: small;
+    width: 150px;
+}
+
+.headerRow {
+    background-color: #000000;
+    color: White;
+}
+
+.JqueryForm {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    display: none;
+    font-family: Verdana;
+    font-size: 13pt;
+    height: 150px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 50px;
+    padding: 0px;
+    position: fixed;
+    top: 10%;
+    width: 400px;
+    z-index: 102;
+}
+
+.JqueryFormA {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    display: none;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 170px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 50px;
+    padding: 0px;
+    position: fixed;
+    top: 5%;
+    width: 400px;
+    z-index: 102;
+}
+
+.JqueryChangeForm {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    display: none;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 310px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 50px;
+    padding: 0px;
+    position: fixed;
+    top: 5%;
+    width: 400px;
+    z-index: 102;
+}
+
+.JqueryRegisterForm {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    display: none;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 400px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 50px;
+    padding: 0px;
+    position: fixed;
+    top: 5%;
+    width: 400px;
+    z-index: 102;
+}
+
+.LogoutForm {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    display: none;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 120px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 50px;
+    padding: 0px;
+    position: fixed;
+    top: 5%;
+    width: 400px;
+    z-index: 102;
+}
+
+.rounded {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #000000;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 0.5em;
+}
+
+.explorer {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height: 50px;
+}
+
+.menu_list { width: 150px; }
+
+.menu_head {
+    background: url(../images/img03.jpg) repeat-x left top;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: normal;
+    margin: 1px;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.menu_body { display: none; }
+
+.menu_body a {
+    background-color: #ffffff;
+    color: #000000;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.menu_body a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.pagetitle {
+    font-size: small;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;   
+}
+
+.locationz { font-style: italic; }
+
+.Capitalized { text-transform: capitalize; }
+
+.smalled { text-transform: lowercase; }
+
+.uppercased { text-transform: uppercase; }
+
+.hidelbl {
+    color: #ffffff;
+    height: 1px;
+    visibility: hidden;
+    width: 1px;
+}
+
+.alinks {
+    color: #000000;
+    text-decoration: none;
+}
+
+.alinks:hover { text-decoration: underline; }
+
+.joblinks {
+    color: #000080;
+    text-decoration: underline;
+}
+
+.tweetimg {
+    height: 20px;
+    width: 54px;   
+}
+
+.tweetimg:hover {
+    border: 1px solid #ffffff;
+    height: 20px;
+    width: 54px;
+}

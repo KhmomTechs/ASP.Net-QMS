@@ -1,0 +1,206 @@
+﻿.headerRow {
+    background-color: #000000;
+    color: White;
+}
+
+.JqueryForm {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    display: none;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 220px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 50px;
+    padding: 0px;
+    position: fixed;
+    top: 5%;
+    width: 400px;
+    z-index: 102;
+}
+
+.JqueryFormA {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    display: none;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 170px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 50px;
+    padding: 0px;
+    position: fixed;
+    top: 5%;
+    width: 400px;
+    z-index: 102;
+}
+
+.JqueryChangeForm {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    display: none;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 310px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 50px;
+    padding: 0px;
+    position: fixed;
+    top: 5%;
+    width: 400px;
+    z-index: 102;
+}
+
+.JqueryRegisterForm {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    display: none;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 400px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 50px;
+    padding: 0px;
+    position: fixed;
+    top: 5%;
+    width: 400px;
+    z-index: 102;
+}
+
+.LogoutForm {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    display: none;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 120px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 50px;
+    padding: 0px;
+    position: fixed;
+    top: 5%;
+    width: 400px;
+    z-index: 102;
+}
+
+.rounded {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #000000;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 0.5em;
+}
+
+.explorer {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height: 50px;
+}
+
+.menu_list { width: 150px; }
+
+.menu_head {
+    background: url(../images/img03.jpg) repeat-x left top;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: normal;
+    margin: 1px;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.menu_body { display: none; }
+
+.menu_body a {
+    background-color: #ffffff;
+    color: #000000;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.menu_body a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.pagetitle {
+    font-size: small;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;   
+}
+
+.locationz { font-style: italic; }
+
+.Capitalized { text-transform: capitalize; }
+
+.smalled { text-transform: lowercase; }
+
+.uppercased { text-transform: uppercase; }
+
+.hidelbl {
+    color: #ffffff;
+    height: 1px;
+    visibility: hidden;
+    width: 1px;
+}
+
+.alinks {
+    color: #000000;
+    text-decoration: none;
+}
+
+.alinks:hover { text-decoration: underline; }
+
+.joblinks {
+    color: #000080;
+    text-decoration: underline;
+}
+
+.tweetimg {
+    height: 20px;
+    width: 54px;   
+}
+
+.tweetimg:hover {
+    border: 1px solid #ffffff;
+    height: 20px;
+    width: 54px;
+}

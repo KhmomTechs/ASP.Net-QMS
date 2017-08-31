@@ -1,0 +1,46 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Display.master.cs" Inherits="Master.Display" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>KPC QMS</title>
+    <link href="../Styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="wrapper">
+
+    <form id="form1" runat="server">
+
+        <div id="header">
+            <span class="title"><img alt="" style="height: 50px; width: 70px;" src="Assets/kpc.JPG" /> KPC QMS-KISUMU<div style="float: right">
+                    <asp:Label Font-Size="25px" ID="lblTime" runat="server"></asp:Label></div></span>
+                
+            <div style="float: right; margin-right: 1%;">
+                <asp:LoginView ID="LoginView1" runat="server">
+                    <LoggedInTemplate>
+
+
+                    </LoggedInTemplate>
+                    <AnonymousTemplate>
+
+                    </AnonymousTemplate>
+                </asp:LoginView>
+
+
+            </div>
+        </div>
+
+        <div id="content">
+            <asp:contentplaceholder id="MainContent" runat="server">
+                <!-- Page-specific content will go here... -->
+            </asp:contentplaceholder>
+            <asp:ContentPlaceHolder ID="LoginContent" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,172 @@
+﻿/* 
+   The below CSS file was built using samples + techniques described by Rachel Andrew in her book:
+   The CSS Anthology: 101 Essential Tips, Tricks & Hacks
+*/
+
+/* Overall Page */
+
+body {
+    background-color: #FFFFFF;
+    border-top: 2px solid #B51032;
+    color: #000000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-width: 1000px;
+    padding-bottom: 2em;
+}
+
+/* Header Section */
+
+#header {
+    border-bottom: 1px dotted #B51032;
+    border-top: 3px solid #B51032;
+    height: 4em;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 1000px;
+}
+
+#header .title {
+    background-color: transparent;
+    color: black;
+    font: 190% Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
+    font-size: 50px;
+    margin-left: 2%;
+    margin-right: 2em;
+    margin-top: 0.3em;
+    text-align: center;
+}
+
+#header a:link, a:visited { color: #ffffff; }
+
+#header a.linking { color: Red; }
+
+/* Navigation */
+
+#navigation {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    left: 1em;
+    position: absolute;
+    top: 5em;
+    width: 200px;
+    width: 13em;
+}
+
+#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li { border-bottom: 1px solid #ED9F9F; }
+
+#navigation li a {
+    background-color: #B51032;
+    border-left: 12px solid #711515;
+    border-right: 1px solid #711515;
+    color: #FFFFFF;
+    display: block;
+    padding: 5px 5px 5px 0.5em;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    background-color: #711515;
+    color: #FFFFFF;
+}
+
+#navigation ul ul { margin-left: 12px; }
+
+#navigation ul ul li {
+    background-color: #ED9F9F;
+    border-bottom: 1px solid #711515;
+    color: #711515;
+    margin: 0;
+}
+
+#navigation ul ul a:link, #navigation ul ul a:visited {
+    background-color: #ED9F9F;
+    color: #711515;
+}
+
+#navigation ul ul a:hover {
+    background-color: #711515;
+    color: #FFFFFF;
+}
+
+#header .breadcrumb {
+    background-color: transparent;
+    color: black;
+    float: right;
+    font: 90% Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    margin-right: 2em;
+    margin-top: 0.8em;
+}
+
+
+/* Main Content */
+
+#content {
+    margin-left: 2%;
+    margin-right: 2em;
+    margin-top: 2.5em;
+    min-width: 1000px;
+}
+
+h1 { font: 150% Arial, Helvetica, Georgia, "Times New Roman", Times, serif; }
+
+#content p {
+    font-size: 80%;
+    line-height: 1.6em;
+}
+
+#content ul {
+    font-size: 80%;
+    line-height: 1.6em;
+}
+
+
+.Important {
+    color: Red;
+    font-size: large;
+}
+
+.tdLabel {
+    font-weight: bold;
+    text-align: right;
+}
+
+.Visibility {
+    display: none;
+    height: 1px;
+    visibility: hidden;
+    width: 1px;
+}
+
+.gridHeader {
+    background-color: White;
+    overflow: auto;
+    position: absolute;
+    width: 620px;
+}
+
+.gridBorder { border: 1px solid #000; }
+
+.noText label {
+    display: none;
+    margin: 0px;
+    visibility: hidden;
+}
+
+.noText td {
+    margin: 0px;
+    /*  border:1px solid #000; */
+    text-align: center;
+    width: 150px;
+}
+
+.noText checkbox { text-align: center; }
+
+.noText tr { margin: 0px; }

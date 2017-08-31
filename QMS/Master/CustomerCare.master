@@ -1,0 +1,87 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CustomerCare.master.cs" Inherits="Master.CustomerCare" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>KPC QMS</title>
+    <link href="../Styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../new_assets/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../prompts/default.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="wrapper">
+
+    <form id="form1" runat="server">
+
+        <div id="header">
+            <span class="title"><img alt="" style="height: 50px; width: 70px;" src="../Assets/kpc.JPG" /> KPC QMS-KISUMU</span>
+            <div style="float: right; margin-right: 1%;">
+                <asp:LoginView ID="LoginView1" runat="server">
+                    <LoggedInTemplate>
+
+                        <asp:FormView ID="MasterView" EnableViewState="false" Width="100%" DataSourceID="LoginDataSource" runat="server">
+                            <ItemTemplate>
+                                <b><asp:Label EnableViewState="false" ID="FieldLabel" runat="server" Text='<%# Eval("First_Name") %>'/>&nbsp;<asp:Label EnableViewState="false" ID="Label1" runat="server" Text='<%# Eval("Last_Name") %>'/></b><br/>
+                                <a style="color: Blue; text-decoration: none;" href="../Membership/ChangePassword.aspx">My Account</a>&nbsp;&nbsp;
+                                <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" CssClass="linking" LogoutPageUrl="~/Logout.aspx"/>
+                            </ItemTemplate>
+                        </asp:FormView>
+
+                    </LoggedInTemplate>
+                    <AnonymousTemplate>
+
+                    </AnonymousTemplate>
+                </asp:LoginView>
+
+
+            </div>
+            <br/>
+            <div id="cssmenu">
+                <ul>
+                    <li id="ccare">
+                        <a href="../Default.aspx">
+                            <span>HOME</span></a>
+                    </li>
+                    <!-- <li id='upload'>
+                        <a href='Upload.aspx'>
+                            <span>UPLOAD NEW QUEUE</span></a>
+                    </li>
+                    <li id='add'>
+                        <a href='Add.aspx'>
+                            <span>AGGREGATE QUEUE</span></a>
+                    </li> -->
+                    <li id="list">
+                        <a href="List.aspx?View=Local">
+                            <span>APPROVE ORDERS</span></a>
+                    </li>
+                    <li id="suspend">
+                        <a href="Suspend.aspx">
+                            <span>SUSPEND/WITHDRAW ORDERS</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="content">
+            <asp:contentplaceholder id="MainContent" runat="server">
+                <!-- Page-specific content will go here... -->
+            </asp:contentplaceholder>
+            <asp:ContentPlaceHolder ID="LoginContent" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</div>
+
+<asp:SqlDataSource ID="LoginDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:SecureConnectionString %>"
+                   SelectCommand="SELECT UserProfiles.UserId, UserProfiles.First_Name, UserProfiles.Last_Name, aspnet_Users.UserName FROM UserProfiles INNER JOIN aspnet_Users ON UserProfiles.UserId = aspnet_Users.UserId WHERE (UserProfiles.UserId = @UserId)"
+                   onselecting="LoginDataSource_Selecting">
+    <SelectParameters>
+        <asp:Parameter Name="UserId" Type="Object"/>
+    </SelectParameters>
+</asp:SqlDataSource>
+
+</body>
+</html>

@@ -1,0 +1,399 @@
+﻿/*
+------------------------------
+	Impromptu's
+------------------------------
+*/
+.jqifade { position: absolute; }
+
+div.jqi {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    display: none;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 120px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 50px;
+    padding: 0px;
+    position: fixed;
+    top: 5%;
+    width: 400px;
+    z-index: 102;
+}
+
+div.jqi .jqicontainer { font-weight: normal; }
+
+div.jqi .jqiclose {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: normal;
+    height: 25px;
+    position: fixed;
+    text-align: left;
+    width: 400px;
+}
+
+div.jqi .jqimessage {
+    color: #000000;
+    line-height: 20px;
+    margin-left: 10px;
+    padding: 30px 0 5px 0;
+}
+
+div.jqi .jqibuttons {
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 5px 0 5px 0;
+    text-align: left;
+}
+
+div.jqi button {
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    color: #000080;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 10px;
+    padding: 3px 10px;
+}
+
+div.jqi button:hover { color: #000000; }
+
+div.jqi button.jqidefaultbutton {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    /*background-color: #8DC05B;*/
+    background-color: #000000;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 0.5em;
+}
+
+div.jqi button.jqidefaultbutton:hover {
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -opera-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: #d3d3d3;
+    padding: 0.5em;
+}
+
+.jqiwarning .jqi .jqibuttons { background-color: #ffffff; }
+
+/*
+------------------------------
+	impromptu
+------------------------------
+*/
+
+.impromptuwarning .impromptu { background-color: #aaaaaa; }
+
+.impromptufade {
+    background-color: #ffffff;
+    position: fixed;
+}
+
+div.impromptu {
+    background-color: #cccccc;
+    padding: 10px;
+    position: fixed;
+    text-align: left;
+    width: 300px;
+}
+
+div.impromptu .impromptuclose {
+    color: #213e80;
+    cursor: pointer;
+    float: right;
+    margin: -35px -10px 0 0;
+}
+
+div.impromptu .impromptucontainer {
+    background-color: #213e80;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+}
+
+div.impromptu .impromptumessage {
+    background-color: #415ea0;
+    padding: 10px;
+}
+
+div.impromptu .impromptubuttons {
+    padding: 5px 0 0 0;
+    text-align: center;
+}
+
+div.impromptu button {
+    margin: 0 10px;
+    padding: 3px 10px 3px 10px;
+}
+
+/*
+------------------------------
+	columns ex
+------------------------------
+*/
+
+.colsJqifadewarning .colsJqi { background-color: #b0be96; }
+
+.colsJqifade {
+    background-color: #ffffff;
+    position: fixed;
+}
+
+div.colsJqi {
+    background-color: #d0dEb6;
+    padding: 10px;
+    position: fixed;
+    text-align: left;
+    width: 400px;
+}
+
+div.colsJqi .colsJqiclose {
+    color: #bbbbbb;
+    cursor: pointer;
+    float: right;
+    margin: -35px -10px 0 0;
+}
+
+div.colsJqi .colsJqicontainer {
+    background-color: #e0eEc6;
+    color: #ffffff;
+    font-weight: bold;
+    height: 160px;
+    padding: 5px;
+}
+
+div.colsJqi .colsJqimessage {
+    background-color: #c0cEa6;
+    float: left;
+    height: 140px;
+    padding: 10px;
+    width: 280px;
+}
+
+div.colsJqi .jqibuttons {
+    padding: 5px 0 0 0;
+    text-align: center;
+}
+
+div.colsJqi button {
+    background: url(../images/button_bg.jpg) top left repeat-x #ffffff;
+    border: solid #777777 1px;
+    font-size: 12px;
+    margin: 5px 5px 5px 10px;
+    padding: 3px 10px 3px 10px;
+    width: 75px;
+}
+
+div.colsJqi button:hover { border: solid #aaaaaa 1px; }
+
+/*
+------------------------------
+	brown theme
+------------------------------
+*/
+
+.brownJqiwarning .brownJqi { background-color: #cccccc; }
+
+.brownJqifade {
+    background-color: #ffffff;
+    position: absolute;
+}
+
+div.brownJqi {
+    background-color: transparent;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    width: 300px;
+}
+
+div.brownJqi .brownJqiclose {
+    color: #777777;
+    cursor: pointer;
+    float: right;
+    font-size: 11px;
+    margin: -20px 0 0 0;
+}
+
+div.brownJqi .brownJqicontainer {
+    background-color: transparent;
+    border: solid 1px #5F5D5A;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+}
+
+div.brownJqi .brownJqimessage {
+    background-color: #F7F6F2;
+    border-bottom: solid 1px #C6B8AE;
+    border-top: solid 1px #C6B8AE;
+    position: relative;
+}
+
+div.brownJqi .brownJqimessage h3 {
+    background: url(../images/brown_theme_gradient.jpg) top left repeat-x #ffffff;
+    color: #4D4A47;
+    margin: 0;
+    padding: 7px 0 7px 15px;
+}
+
+div.brownJqi .brownJqimessage p {
+    color: #777777;
+    padding: 10px;
+}
+
+div.brownJqi .brownJqimessage img.helpImg {
+    bottom: -25px;
+    left: 10px;
+    position: absolute;
+}
+
+div.brownJqi .brownJqibuttons { text-align: right; }
+
+div.brownJqi button {
+    background: url(../images/brown_theme_gradient.jpg) top left repeat-x #ffffff;
+    border: solid #777777 1px;
+    font-size: 12px;
+    margin: 5px 5px 5px 10px;
+    padding: 3px 10px 3px 10px;
+}
+
+div.brownJqi button:hover { border: solid #aaaaaa 1px; }
+
+/*
+*------------------------
+*   clean blue ex
+*------------------------
+*/
+
+.cleanbluewarning .cleanblue { background-color: #acb4c4; }
+
+.cleanbluefade {
+    background-color: #aaaaaa;
+    position: absolute;
+}
+
+div.cleanblue {
+    background-color: #ffffff;
+    border: solid 1px #213e80;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    position: absolute;
+    text-align: left;
+    width: 300px;
+}
+
+div.cleanblue .cleanbluecontainer {
+    background-color: #ffffff;
+    border-top: solid 14px #213e80;
+    font-weight: bold;
+    padding: 5px;
+}
+
+div.cleanblue .cleanblueclose {
+    color: #ffffff;
+    cursor: default;
+    float: right;
+    font-weight: bold;
+    margin: -19px -12px 0 0;
+    width: 18px;
+}
+
+div.cleanblue .cleanbluemessage {
+    color: #333333;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 10px;
+}
+
+div.cleanblue .cleanbluebuttons {
+    background-color: #f4f4f4;
+    border: solid 1px #eeeeee;
+    padding: 5px 0 5px 0;
+    text-align: right;
+}
+
+div.cleanblue button {
+    background-color: #314e90;
+    border: solid 1px #f4f4f4;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 3px 10px;
+}
+
+div.cleanblue button:hover { border: solid 1px #d4d4d4; }
+
+/*
+*------------------------
+*   Ext Blue Ex
+*------------------------
+*/
+
+.extbluewarning .extblue { border: 1px red solid; }
+
+.extbluefade {
+    background-color: #ffffff;
+    position: absolute;
+}
+
+div.extblue {
+    background-color: #CAD8EA;
+    border: 1px #6289B6 solid;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    width: 300px;
+}
+
+div.extblue .extblueclose {
+    background-color: #CAD8EA;
+    color: red;
+    cursor: pointer;
+    margin: 2px -2px 0 0;
+    text-align: right;
+}
+
+div.extblue .extbluecontainer {
+    background-color: #CAD8EA;
+    color: #000000;
+    font: normal 11px Verdana;
+    padding: 0 5px 5px 5px;
+}
+
+div.extblue .extbluemessage {
+    background-color: #CAD8EA;
+    margin: 0 15px 15px 15px;
+    padding: 0;
+}
+
+div.extblue .extbluebuttons {
+    padding: 0px 0 0 0;
+    text-align: center;
+}
+
+div.extblue button {
+    background-color: #cccccc;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0 10px;
+    padding: 1px 4px;
+}
